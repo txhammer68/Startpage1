@@ -1,5 +1,7 @@
 Credits
 i combined code from these sources
 
-https://github.com/traderjohn/yogic-startpage/
-https://github.com/Navigatron/MyStartPage
+https://github.com/traderjohn/yogic-startpage/  - for date/time/search/backgrounds
+https://github.com/Navigatron/MyStartPage  - for css links
+
+Thanks

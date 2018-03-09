@@ -79,16 +79,20 @@ var settings = {
 	//\_ should the search box be selected on load?
 	"showQuotes": true,
 	"quotes":[
-		  "What you seek is seeking you. ~ Rumi",
+		  "Logic will get you from A to Z; imagination will get you everywhere. ~ Einstein",
 		  "This Universe is not outside of you. Look inside yourself; everything that you want, you already are. ~ Rumi",
-		  //"You are not a drop in the ocean. You are the entire ocean in a drop. ~ Rumi",
-		  "the Universe is in us. ~ Neil DeGrasse Tyson",
-		  "What you seek you already are. ~ Deepak Chopra",
+          "Everybody’s, somebody, someday ~ Chris Stapelton",
+		  "You are not a drop in the ocean. You are the entire ocean in a drop. ~ Rumi",
+		  "Learn from yesterday, live for today, hope for tomorrow. The important thing is to not stop questioning.  ~Einstein",
 		  "All that you seek is already within you. ~ Ram Dass",
-		  "Look within! The secret is inside you. ~ Hui Neng",
-		  "Everything is within. Everything exists. Seek nothing outside of yourself. ~ Miyamoto Musashi",
-		  "Search within... for honest self-expression. ~ Bruce Lee",
-		  "Peace comes from within. Do not seek it without. ~ Buddha"
+		  " A dream is not something that you wake up from, but something that wakes you up.~ Charlie Hedges",
+		  "One’s the devil, one keeps driving me insane, At times I wonder if they ain’t both the same ~ Chris Stapelton",
+		  "In 20 years, you probably won't even remember this. ~ Anonymous",
+          "In the end, it's not the years in your life that count. It's the life in your years. ~Abraham Lincoln",
+          "When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one that has opened for us. ~Alexander Graham Bell",
+          "Each life is made up of mistakes and learning, waiting and growing, practicing patience and being persistent. ~Billy Graham",
+          "Life is a journey that must be traveled no matter how bad the roads and accommodations. ~Oliver Goldsmith",
+          "You can't always get what you want, But if you try, sometimes you find you get what you need! ~Mick Jagger"
 		  ]
     }
 };

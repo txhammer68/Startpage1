@@ -76,7 +76,7 @@ $(document).ready(function(){
 		var h=today.getHours();
 		var m=today.getMinutes();
 		var s=today.getSeconds();
-		var days = ['Sun','Mon','Tues','Wed','Thur','Fri','Sat'];
+		var days = ['Sun','Mon','Tues','Wednes','Thurs','Fri','Satur'];
 		var months = ['Jan','Feb','Mar','Apr','May','Jun','July','Aug','Sep','Oct','Nov','Dec'];
 		
 		m = checkTime(m);
