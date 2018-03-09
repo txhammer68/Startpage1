@@ -1,0 +1,21 @@
+TECH
+http://arstechnica.com/index.ars || Ars Technica
+http://www.omgubuntu.co.uk/ || OMG Ubuntu!
+http://slashdot.org/ || Slashdot
+https://forum.manjaro.org/ || Manjaro
+
+SOCIAL
+http://gmail.com || G-Mail
+https://www.facebook.com/ || Facebook
+http://www.reddit.com/ || Reddit
+
+ANDROID
+http://www.androidpolice.com/ || Android Police
+https://www.androidcentral.com/ || Android Central
+https://www.greenbot.com/ || Greenbot
+https://www.androidauthority.com/ || Android Authority
+
+NEWS
+http://www.chron.com/ || Houston Chronicle
+http://abc13.com/weather/doppler/southeast-texas/ || Weather Radar
+http://abc13.com/traffic/ || Traffic

@@ -1,0 +1,5 @@
+Credits
+i combined code from these sources
+
+https://github.com/traderjohn/yogic-startpage/
+https://github.com/Navigatron/MyStartPage
