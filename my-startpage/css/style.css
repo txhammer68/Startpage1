@@ -155,19 +155,22 @@ a:active{
 /* WEATHER WIDGET STYLES*/
 #weather{
 	margin:auto;
+    float:center;
 	width:280px;
 	margin-top: -10px;
 }
 #weather .weatherHead{
-	float:left;
-	width:280px;
+	float:center;
+	width:380px;
+    margin-left: 75px;
 	font-size: 1.5em;
 }
 #weather .weatherDetail{
-	 float:right;
+	 float:left;
 	 font-size: 1.2em;
-	 text-align:right;
-     margin-top: -18px;
+	 text-align:left;
+     margin-top: 4px;
+     margin-left: 75px;
 	text-transform:uppercase;
 }
 
@@ -299,22 +302,23 @@ a:visited,
 /*Panels*/
 
 #space{
-	margin-left:40%;
+	margin-left:30%;
 }
 
 
 .Panel{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 1300px;
+    justify-content: left;
+    max-width: 1800px;
     margin: 10px;
 }
 #Icons{
+    justify-content: left;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
-    margin:20px;
+    align-content: stretch;
+    margin:2px;
 }
 /*Tiles*/
 .tile{
@@ -336,6 +340,16 @@ a:visited,
 }
 /*Images in Icon Tiles*/
 .icon a img{
-  width:48px;
-  height:48px;
+  width:32px;
+  height:32px;
+}
+  .stocks tradingview-widget-container__widget{
+  width: 100%; 
+  height: 24px;
+  }
+  
+  .stocks tradingview-widget-container{
+  width: 100%; 
+  height: 24px;
+  }
 }

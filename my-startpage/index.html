@@ -2,12 +2,49 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>My Startpage</title>
+<!-- <meta http-equiv="refresh" content="30" /> -->
 
+<title>Welcome Startpage</title>
+<link rel="shortcut icon" href="/favicon.ico" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/settings.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+
+<!-- TradingView Widget BEGIN -->
+<div class="stocks" style="width: 100%; height: 24px;">
+<div class="tradingview-widget-container" style="width: 100%; height: 24px;">
+  <div class="tradingview-widget-container__widget" style="width: 100%; height: 24px;"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "description": "Dow Jones",
+      "proName": "DJ:DJI"
+    },
+    
+    {
+      "title": "S&P 500",
+      "proName": "INDEX:SPX"
+    },
+    {
+      "title": "Nasdaq 100",
+      "proName": "INDEX:IUXX"
+    },
+    {
+      "description": "Crude Oil",
+      "proName": "NYMEX:CL1!"
+    }
+    
+  ],
+  "locale": "en"
+}
+  </script>
+  <link rel="stylesheet" href="css/style.css"/>
+</div>
+</div>
+</div>
+<!-- TradingView Widget END -->
 
 <!-- Weather plugin by simpleweatherjs.com; weather font by ErikFlowers because of his moon phrase -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
@@ -17,6 +54,7 @@
 
 </head>
 <body>
+
 	<div id="wrapper">
 		<header>
 			<div id="fulltime">

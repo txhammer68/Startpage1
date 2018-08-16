@@ -44,8 +44,8 @@ var settings = {
 
     "weather": {
 	"show": true,
-	"geolocate": true,
-	"default_loco": "Houston, Texas",
+	"geolocate": false,
+	"default_loco": "La Porte, Texas",
 	"link":"http://wttr.in"
 	//\ optional link for weather to a 3rd party app
     },

@@ -40,7 +40,7 @@ $(document).ready(function(){
 	var bolGeoLocate= settings.weather.geolocate;
 	var strLoco = settings.weather.default_loco;
 	if (navigator.geolocation && bolShowWeather && bolGeoLocate ){
-	    navigator.geolocation.getCurrentPosition(function(position){
+	     navigator.geolocation.getCurrentPosition(function(position){
 		    loadWeather( position.coords.latitude + ',' + position.coords.longitude);
 		});
 	}else if( bolShowWeather){
@@ -77,7 +77,7 @@ $(document).ready(function(){
 		var m=today.getMinutes();
 		var s=today.getSeconds();
 		var days = ['Sun','Mon','Tues','Wednes','Thurs','Fri','Satur'];
-		var months = ['Jan','Feb','Mar','Apr','May','Jun','July','Aug','Sep','Oct','Nov','Dec'];
+		var months = ['Jan','Feb','March','April','May','June','July','Aug','Sept','Oct','Nov','Dec'];
 		
 		m = checkTime(m);
 		h = checkTime(h);
